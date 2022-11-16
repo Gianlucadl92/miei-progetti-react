@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+body {
+  background-color: #f1f5f8;
+}
+
+.container,
+.btn,
+h3,
+form {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+
+.container h3 {
+  color: #102a42;
+  font-size: 28px;
+  line-height: 28px;
+  letter-spacing: 1.6;
+  text-transform: capitalize;
+}
+
+.container,
+.btn,
+input {
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+input {
+  font-size: 16px;
+  background-color: #ffffff;
+  border-radius: 4px 0 0 4px;
+}
+
+.btn {
+  text-transform: capitalize;
+  background-color: #49a6e9;
+  border-radius: 0 4px 4px 0;
+  color: #ffffff;
+}
+
+.color {
+  width: 20%;
+  height: 150px;
+}
+
+.colors {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.percent-value,
+.color-value {
+  color: #102a42;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.alert {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.percent-value {
+  margin-bottom: 0;
+  color: #102a42;
+}
+.color-value {
+  color: #102a42;
+}
+
+.color-light .color-value {
+  color: #ffffff;
+}
+.color-light .percent-value {
+  color: #ffffff;
+}
+
+@media screen and (max-width: 800px) {
+  .color {
+    width: 100%;
+  }
+}
