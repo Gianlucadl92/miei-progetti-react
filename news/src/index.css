@@ -1,0 +1,152 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+body {
+  background-color: #f1f5f8;
+}
+/* search */
+.search-form {
+  margin: 80px 0 0 300px;
+}
+
+.search-form h2 {
+  font-size: 40px;
+  line-height: 40px;
+  letter-spacing: 1.6px;
+  color: #102a42;
+  text-transform: capitalize;
+}
+
+.form-input {
+  width: 25%;
+  color: #102a42;
+  border: 2px solid #324d67;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: uppercase;
+  padding: 8px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background-color: #f1f5f8;
+}
+
+/* buttons */
+.btn-container {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+}
+
+.btn-container button {
+  background-color: #49a6e9;
+  color: #ffffff;
+  border-radius: 4px;
+  margin: 10px;
+  width: 60px;
+  text-transform: capitalize;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-container p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #102a42;
+  font-weight: bold;
+}
+
+/* stories */
+.loading {
+  font-size: 34px;
+  line-height: 40px;
+  letter-spacing: 1.6px;
+  color: #102a42;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.stories {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+}
+
+.story {
+  width: 45%;
+  padding: 10px;
+  margin: 10px auto;
+  border-radius: 4px;
+  background: #ffffff;
+}
+
+.title {
+  text-transform: capitalize;
+  font-size: 16px;
+  letter-spacing: 1.6px;
+  line-height: 24px;
+  color: #102a42;
+  margin-left: 10px;
+}
+
+.info {
+  color: #617d98;
+  font-size: 16px;
+  line-height: 24px;
+  margin: -15px 0 5px 10px;
+}
+
+.read-link {
+  text-decoration: none;
+  color: #49a6e9;
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: capitalize;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.remove-btn {
+  text-decoration: none;
+  color: #bb2525;
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: capitalize;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .search-form {
+    margin: 0 auto;
+  }
+
+  .search-form h2 {
+    text-align: center;
+    font-size: 32px;
+  }
+
+  .form-input {
+    margin: 0 auto;
+    display: block;
+    width: 70%;
+  }
+
+  .story {
+    width: 90%;
+  }
+}
